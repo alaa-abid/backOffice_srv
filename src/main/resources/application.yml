@@ -1,0 +1,14 @@
+
+spring:
+  application:
+    name: BACKOFFICE-SERVICE
+
+
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone:  https://registry-microservice.herokuapp.com/eureka
+  instance:
+    preferIpAdress: true
